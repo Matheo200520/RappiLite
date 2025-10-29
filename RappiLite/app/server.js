@@ -1,7 +1,7 @@
 import express from "express";
 import client from "prom-client";
 
-const app = express();
+const app = express(); 
 const register = new client.Registry();
 
 client.collectDefaultMetrics({ register });
